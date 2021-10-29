@@ -1,0 +1,24 @@
+.bg-primary-color{
+  background-color: #5c6641;
+}
+.primary-color{
+  color: black;
+}
+
+#navbar a:hover{
+  color: gray;
+}
+#navbar a.active{
+  border-bottom: 2px solid black;
+}
+.navbar-brand img{
+  width: 40px;
+}
+#navbar-items .navbar-nav{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#navbar-items .navbar-item{
+  margin: 0 1.5em;
+}

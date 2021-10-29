@@ -1,24 +1,61 @@
-.bg-primary-color{
-  background-color: #5c6641;
+.bg-primary-color {
+	background-color: #5c6641;
 }
-.primary-color{
-  color: black;
+.primary-color {
+	color: black;
+}
+.secondary-color {
+	color: white;
+}
+.btn {
+	padding: 0.3em 0.8em;
+	font-size: 1em;
+	margin-top: 1em;
+}
+p {
+	color: gray;
 }
 
-#navbar a:hover{
-  color: gray;
+/* Navbar */
+#navbar a:hover {
+	color: gray;
 }
-#navbar a.active{
-  border-bottom: 2px solid black;
+#navbar a.active {
+	border-bottom: 2px solid black;
 }
-.navbar-brand img{
-  width: 40px;
+.navbar-brand img {
+	width: 40px;
 }
-#navbar-items .navbar-nav{
-  display: flex;
-  justify-content: center;
-  width: 100%;
+#navbar-items .navbar-nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
 }
-#navbar-items .navbar-item{
-  margin: 0 1.5em;
+#navbar-items .navbar-item {
+	margin: 0 1.5em;
+}
+
+/* Carousel */
+#slider .carousel-caption {
+	bottom: 4em;
+}
+#slider .carousel-caption h5 {
+	font-size: 1.5em;
+  text-shadow: black 1px 1px;
+}
+@media (min-width: 768px) {
+  #slider .carousel-caption {
+    bottom: 15em;
+  }
+  #slider .carousel-caption h5 {
+    font-size: 3em;
+  }
+  #slider .btn {
+    padding: .6em 1.6em;
+    font-size: 1.2em;
+    margin-top: 1em;
+  }
+  .carousel-indicators {
+    bottom: 7em;
+  }
 }

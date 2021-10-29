@@ -15,6 +15,18 @@
 p {
 	color: gray;
 }
+.title {
+	font-size: 1.5em;
+	position: relative;
+}
+.title:before {
+	bottom: 2em;
+	width: 75px;
+	border: 2px solid gray;
+	border-radius: 100px;
+	content: "";
+	position: absolute;
+}
 
 /* Navbar */
 #navbar a:hover {
@@ -35,50 +47,105 @@ p {
 	margin: 0 1.5em;
 }
 
-/* Carousel */
+/* Carrocel */
 #slider {
-  margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 #slider .carousel-caption {
 	bottom: 4em;
 }
 #slider .carousel-caption h5 {
 	font-size: 1.5em;
-  text-shadow: black 1px 1px;
+	text-shadow: black 1px 1px;
 }
 @media (min-width: 768px) {
-  #slider .carousel-caption {
-    bottom: 15em;
-  }
-  #slider .carousel-caption h5 {
-    font-size: 3em;
-  }
-  #slider .btn {
-    padding: .6em 1.6em;
-    font-size: 1.2em;
-    margin-top: 1em;
-  }
-  .carousel-indicators {
-    bottom: 7em;
-  }
+	#slider .carousel-caption {
+		bottom: 15em;
+	}
+	#slider .carousel-caption h5 {
+		font-size: 3em;
+	}
+	#slider .btn {
+		padding: 0.6em 1.6em;
+		font-size: 1.2em;
+		margin-top: 1em;
+	}
+	.carousel-indicators {
+		bottom: 7em;
+	}
 }
 
 /* Planos */
 #banners {
-  margin-bottom: 3em;
+	margin-bottom: 3em;
 }
 #banners .card {
-  padding: 1em 0.3em;
-  margin-bottom: 1em;
+	padding: 1em 0.3em;
+	margin-bottom: 1em;
 }
 #banners i {
-  font-size: 3em;
+	font-size: 3em;
 }
 #banners h5 {
-  margin-bottom: 1em;
+	margin-bottom: 1em;
 }
-@media  (min-width: 768px)  {
-  #banners {
-    margin-top: -6em;
+@media (min-width: 768px) {
+	#banners {
+		margin-top: -6em;
+	}
+}
+
+/* Projetos Destacados */
+#projetos-imagens {
+	margin-top: 2em;
+}
+#projetos-imagens .col-md-4 {
+	position: relative;
+	cursor: pointer;
+}
+#projetos-imagens .col-md-4:hover .projeto-banner {
+	opacity: 0.7;
+}
+#projetos-imagens .projeto-banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.7;
+	transition: 0.5;
+}
+
+@media (min-width: 768px) {
+	#projetos-imagens .projeto-banner {
+		opacity: 0;
+	}
+}
+
+/* Designer */
+#designer{
+  padding: 4em 0.75em;
+}
+#designer-foto{
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.5em;
+}
+#designer-foto img{
+  border-radius: 400px;
+}
+#designer-descricao{
+  background-color: #ecebe2;
+  padding: 4em 1em;
+  text-align: justify;
+}
+@media (min-width: 768px) {
+	#designer-descricao{
+    padding: 3em;
   }
 }

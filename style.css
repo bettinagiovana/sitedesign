@@ -1,6 +1,9 @@
 .bg-primary-color {
 	background-color: #5c6641;
 }
+.bg-secondary-color {
+	background-color: black;
+}
 .primary-color {
 	color: black;
 }
@@ -128,24 +131,87 @@ p {
 }
 
 /* Designer */
-#designer{
-  padding: 4em 0.75em;
+#designer {
+	padding: 4em 0.75em;
 }
-#designer-foto{
-  align-items: center;
-  display: flex;
-  margin-bottom: 1.5em;
+#designer-foto {
+	align-items: center;
+	display: flex;
+	margin-bottom: 1.5em;
 }
-#designer-foto img{
-  border-radius: 400px;
+#designer-foto img {
+	border-radius: 400px;
 }
-#designer-descricao{
-  background-color: #ecebe2;
-  padding: 4em 1em;
-  text-align: justify;
+#designer-descricao {
+	background-color: #ecebe2;
+	padding: 4em 1em;
+	text-align: justify;
 }
 @media (min-width: 768px) {
-	#designer-descricao{
-    padding: 3em;
-  }
+	#designer-descricao {
+		padding: 3em;
+	}
+	#designer-foto {
+		margin-bottom: 0;
+	}
+}
+
+/* Footer */
+#footer {
+	padding: 3em 0.75em;
+}
+
+/* Footer-top */
+#footer-top {
+	margin-bottom: 2em;
+}
+#footer-top,
+#footer-top i {
+	color: white;
+}
+#redes-sociais {
+	text-align: right;
+}
+#redes-sociais i {
+	font-size: 1.5em;
+	cursor: pointer;
+	margin-right: 1em;
+}
+#contato,
+#cadastro,
+#test {
+	padding: 0;
+	border: 0;
+	margin-bottom: 2em;
+}
+
+/* Footer-detalhes */
+#footer-detalhes h4 {
+	color: #fff;
+	margin-bottom: 1.5em;
+}
+#cadastro input {
+	border: none;
+}
+@media (min-width: 768px) {
+	#cadastro {
+		padding-right: 2em;
+	}
+	#contato {
+		padding: 0 2em;
+		border-left: 2px solid #7a7a7a;
+		border-right: 2px solid #7a7a7a;
+	}
+	#test {
+		padding-left: 2em;
+	}
+	#dev-gean {
+		text-align: right;
+	}
+}
+
+/* Footer-bottom */
+#footer-bottom {
+	border-top: 1px solid #7a7a7a;
+	padding-top: 2em;
 }

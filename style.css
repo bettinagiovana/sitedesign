@@ -175,7 +175,6 @@ p {
 #redes-sociais i {
 	font-size: 1.5em;
 	cursor: pointer;
-	margin-right: 1em;
 }
 #contato,
 #cadastro,
@@ -194,6 +193,9 @@ p {
 	border: none;
 }
 @media (min-width: 768px) {
+  #redes-sociais i {
+    margin-right: 0.45em;
+  }
 	#cadastro {
 		padding-right: 2em;
 	}

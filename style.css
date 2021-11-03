@@ -31,6 +31,40 @@ p {
 	position: absolute;
 }
 
+/* links navbar */
+
+.anchor-slider{
+  position:absolute;
+  top: 0;
+}
+.anchor-planos{
+  display: block;
+  position:absolute;
+  top:40%;
+  visibility: hidden;
+}
+.anchor-designer{
+  display: block;
+  position:absolute;
+  top: 84%;
+  visibility: hidden;
+}
+@media (min-width: 1024px) {
+	.anchor-planos{
+    top: 50%;
+  }
+}
+@media (min-width: 1440px) {
+	.anchor-planos{
+    top: 60%;
+  }
+}
+@media (min-width: 2560px) {
+	.anchor-planos{
+    top: 80%;
+  }
+}
+
 /* Navbar */
 #navbar a:hover {
 	color: gray;

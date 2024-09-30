@@ -1,14 +1,14 @@
 .bg-primary-color {
-	background-color: #5c6641;
+	background-color: #edece8;
 }
 .bg-secondary-color {
-	background-color: black;
+	background-color: #b4a39a;
 }
 .primary-color {
 	color: black;
 }
 .secondary-color {
-	color: white;
+	color: #edece8;
 }
 .btn {
 	padding: 0.3em 0.8em;
@@ -149,7 +149,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #fff;
+	background-color: #edece8;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -250,4 +250,10 @@ p {
 #footer-bottom {
 	border-top: 1px solid #7a7a7a;
 	padding-top: 2em;
+}
+
+
+#pagina {
+	height: 650px;
+	width: 100%;
 }
